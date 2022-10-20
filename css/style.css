@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  background-color: #fafafa;
+  overflow-x: hidden;
+}
+.bg-custom {
+  background: rgb(87, 184, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(87, 184, 255, 1) 38%,
+    rgba(195, 209, 238, 1) 67%
+  );
+}
+
+a {
+  transition: all 0.3s ease;
+}
+a:hover {
+  color: pink;
+}
